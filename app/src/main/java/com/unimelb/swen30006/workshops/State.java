@@ -6,5 +6,10 @@ public enum State {
     ACTIVE,
     INACTIVE,
     CLOSED,
-    SUSPENDED
+    SUSPENDED,
+    GRACE_PERIOD,
+    PAYMENT_PLAN,
+    HEALTHY_DEBT,
+    UNHEALTHY_DEBT,
+    COLLECTIONS
 }
